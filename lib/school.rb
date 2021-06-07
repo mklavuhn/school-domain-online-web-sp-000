@@ -6,7 +6,6 @@ class School
   end
   
   roster =  {}
-  School.new
 end
   
   def add_student(name, grade)
