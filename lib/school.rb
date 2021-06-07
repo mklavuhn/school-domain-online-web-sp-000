@@ -24,7 +24,7 @@ class School
     roster.each do |key, value|
       value.sort!
     end
-    value.sort.to_h
+    roster.sort.to_h
   end
 end
   
