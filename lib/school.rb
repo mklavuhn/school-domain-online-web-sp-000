@@ -5,6 +5,8 @@ class School
     @name = name
   end
   
+  roster {} 
+  
   def add_student(name, grade)
   roster = {} 
   roster["name"] << "grade"
