@@ -8,8 +8,8 @@ class School
     @roster = {}
   end
   
-  def add_student(name, grade)
-    @roster[name] << grade
+  def add_student(student_name, grade)
+    if @roster[grade] == student_name
   end
 end
   
