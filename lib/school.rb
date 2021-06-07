@@ -6,6 +6,7 @@ class School
   roster["name"] << "grade"
   
   roster
+end
   
 end
 
