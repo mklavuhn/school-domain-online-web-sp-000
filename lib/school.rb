@@ -22,7 +22,9 @@ class School
   
   def sort
     roster.each do |key, value|
-      
+      value.sort!
+    end
+    value.sort.to_h
 end
   
   
