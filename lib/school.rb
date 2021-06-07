@@ -25,6 +25,7 @@ class School
       value.sort!
     end
     value.sort.to_h
+  end
 end
   
   
